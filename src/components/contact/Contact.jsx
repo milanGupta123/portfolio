@@ -1,33 +1,18 @@
-import React from "react";
-import "./Contact.css";
-import { HiOutlineMail } from "react-icons/hi";
+import emailjs from "emailjs-com";
+import React, { useRef } from "react";
 import { BsWhatsapp } from "react-icons/bs";
-// import { useRef } from "react";
-// import emailjs from '@emailjs/browser';
-// import emailjs from "emailjs-com";
+import { HiOutlineMail } from "react-icons/hi";
+import "./Contact.css";
 
 const Contact = () => {
-  // const from = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm ('service_4z98am7', 'template_d64a06d',form.current, '0qUE-SwVvumUDpap7')
+    e.target.reset()
+  }
 
-  //   emailjs
-  //     .sendForm(
-  //       "YOUR_SERVICE_ID",
-  //       "YOUR_TEMPLATE_ID",
-  //       form.current,
-  //       "YOUR_PUBLIC_KEY"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
 
   return (
     <section id="contact">
@@ -62,7 +47,15 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form>
+         {/* END OF CONTACT OPTIONS */}
+         <form ref={form} onSubmit={sendEmail} className='form'>
+          <input type="text" name='name' placeholder='Your Full Name' required />
+          <input type="email" name='email' placeholder='Your Email' required />
+          <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
+
+        </form>
+        {/* <form>
           <input
             type="text"
             name="name"
@@ -79,7 +72,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

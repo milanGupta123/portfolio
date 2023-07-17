@@ -18,26 +18,8 @@ const data = [
     avatar: Avatar1,
     name: "milan",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ratione nesciunt veritatis similique illum molestias. Non possimus est ea atque quaerat dignissimos hic, minima impedit eaque provident itaque, aliquam assumenda.",
-  },
-  {
-    avatar: Avatar2,
-    name: "nitesh",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ratione nesciunt veritatis similique illum molestias. Non possimus est ea atque quaerat dignissimos hic, minima impedit eaque provident itaque, aliquam assumenda.",
-  },
-  {
-    avatar: Avatar3,
-    name: "ravi",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ratione nesciunt veritatis similique illum molestias. Non possimus est ea atque quaerat dignissimos hic, minima impedit eaque provident itaque, aliquam assumenda.",
-  },
-  {
-    avatar: Avatar4,
-    name: "anup",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ratione nesciunt veritatis similique illum molestias. Non possimus est ea atque quaerat dignissimos hic, minima impedit eaque provident itaque, aliquam assumenda.",
-  },
+      "seeking a challenging position in a reputed organisation where i can learn new skill, expand myknowledge and leverage my learning.",
+  }
 ];
 
 const testimonials = () => {

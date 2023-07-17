@@ -17,13 +17,13 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is the Portfolio item title</h3>
+          <h3>Real E-state Dashboard</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com" className="btn">
+            <a href="https://github.com/milanGupta123/Real-Estate-Dashboard" className="btn">
               Github
             </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="https://realestatedashboard.netlify.app/"
               className="btn btn-primary"
             >
               Live Demo
@@ -34,13 +34,13 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is the Portfolio item title</h3>
+          <h3>Atri Restaurant app</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com" className="btn">
+            <a href="https://github.com/milanGupta123/atri" className="btn">
               Github
             </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="Not live"
               className="btn btn-primary"
             >
               Live Demo
@@ -51,13 +51,13 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is the Portfolio item title</h3>
+          <h3>Carousel Display Image</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com" className="btn">
+            <a href="https://github.com/milanGupta123/my-app-assignment" className="btn">
               Github
             </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="Not live"
               className="btn btn-primary"
             >
               Live Demo
@@ -68,13 +68,13 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>This is the Portfolio item title</h3>
+          <h3>Dice Game</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com" className="btn">
+            <a href="https://github.com/milanGupta123/dice" className="btn">
               Github
             </a>
             <a
-              href="https://dribbble.com/Alien_pixels"
+              href="Not live"
               className="btn btn-primary"
             >
               Live Demo

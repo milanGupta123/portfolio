@@ -16,11 +16,15 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BsCheck2 className="service_list-icon"></BsCheck2>
-              <p>Motion detector, using Arduino</p>
+              <p>Robotic Car, using Arduino</p>
             </li>
             <li>
               <BsCheck2 className="service_list-icon"></BsCheck2>
               <p>Motion detector, using Arduino</p>
+            </li>
+            <li>
+              <BsCheck2 className="service_list-icon"></BsCheck2>
+              <p>Mini Radar, using Arduino</p>
             </li>
           </ul>
         </article>
@@ -62,16 +66,17 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BsCheck2 className="service_list-icon"></BsCheck2>
-              <p>Dice game, using HTML,CSS and java script</p>
+              <p>Update Soon</p>
             </li>
             <li>
               <BsCheck2 className="service_list-icon"></BsCheck2>
-              <p>Music Player, using python</p>
+              <p>Update Soon</p>
             </li>
             <li>
               <BsCheck2 className="service_list-icon"></BsCheck2>
-              <p>Real Estate Dashboard, using Angular and Firebase</p>
+              <p>Update Soon</p>
             </li>
+           
           </ul>
         </article>
       </div>
