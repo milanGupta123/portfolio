@@ -1,6 +1,8 @@
 .container .testimonial_container {
     width: 40%;
+   
 }
+
 .client_avatar {
     width: 4rem;
     aspect-ratio: 1/1;
@@ -10,11 +12,14 @@
     border: 0.4rem solid var(--color-primary-variant);
 }
 .testimonial {
-    background: var(--color-primary-variant);
+   
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    background: var(--color-primary-variant);
+
+    
 }
 .client_review {
     color: var(--color-light);
