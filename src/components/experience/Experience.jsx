@@ -14,28 +14,28 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon "></BsPatchCheckFill>
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Expert</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon "></BsPatchCheckFill>
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Expert</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon "></BsPatchCheckFill>
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Expert</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon "></BsPatchCheckFill>
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Expert</small>
               </div>
             </article>
             <article className="experience_details">
@@ -61,7 +61,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon "></BsPatchCheckFill>
               <div>
                 <h4>C++</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Expert</small>
               </div>
             </article>
             <article className="experience_details">
@@ -75,7 +75,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon "></BsPatchCheckFill>
               <div>
                 <h4>Firebase</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Expert</small>
               </div>
             </article>
             <article className="experience_details">

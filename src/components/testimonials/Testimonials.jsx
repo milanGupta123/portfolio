@@ -19,24 +19,8 @@ const testimonials = () => {
           <a href={certificate} download className='btn'>Certificate</a>
           </div>
         
-
-          {/* <div className='cta'> */}
-        
-    {/* </div> */}
         </div>
-      {/* <Swiper className="container testimonials_container">
-        {data.map(({ avatar, name, review }, index) => {
-          return (
-            <SwiperSlide key={index} className="testimonial">
-              <div className="client_avatar">
-                <img src={avatar} alt="" />
-              </div>
-              <h5 className="clint_name">{name}</h5>
-              <small className="client_review">{review}</small>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper> */}
+    
     </section>
   );
 };

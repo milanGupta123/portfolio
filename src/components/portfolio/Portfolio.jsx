@@ -39,12 +39,12 @@ const Portfolio = () => {
             <a href="https://github.com/milanGupta123/atri" className="btn">
               Github
             </a>
-            <a
+            {/* <a
               href="Not live"
               className="btn btn-primary"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio_item">
@@ -56,12 +56,12 @@ const Portfolio = () => {
             <a href="https://github.com/milanGupta123/my-app-assignment" className="btn">
               Github
             </a>
-            <a
+            {/* <a
               href="Not live"
               className="btn btn-primary"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio_item">
@@ -73,12 +73,12 @@ const Portfolio = () => {
             <a href="https://github.com/milanGupta123/dice" className="btn">
               Github
             </a>
-            <a
+            {/* <a
               href="Not live"
               className="btn btn-primary"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio_item">
@@ -90,12 +90,12 @@ const Portfolio = () => {
             <a href="https://github.com" className="btn">
               Github
             </a>
-            <a
+            {/* <a
               href="https://dribbble.com/Alien_pixels"
               className="btn btn-primary"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="portfolio_item">
@@ -112,14 +112,14 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <a
+            {/* <a
               href="https://dribbble.com/Alien_pixels"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
               Live Demo
-            </a>
+            </a> */}
           </div>
         </article>
       </div>
