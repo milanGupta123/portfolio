@@ -20,7 +20,7 @@ const Portfolio = () => {
           <h3>Real E-state Dashboard</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/milanGupta123/Real-Estate-Dashboard" className="btn">
-              Github
+              Github Link
             </a>
             <a
               href="https://realestatedashboard.netlify.app/"
@@ -37,7 +37,7 @@ const Portfolio = () => {
           <h3>Atri Restaurant app</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/milanGupta123/atri" className="btn">
-              Github
+              Github Link
             </a>
             {/* <a
               href="Not live"
@@ -54,7 +54,7 @@ const Portfolio = () => {
           <h3>Carousel Display Image</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/milanGupta123/my-app-assignment" className="btn">
-              Github
+              Github Link
             </a>
             {/* <a
               href="Not live"
@@ -71,7 +71,7 @@ const Portfolio = () => {
           <h3>Dice Game</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/milanGupta123/dice" className="btn">
-              Github
+              Github Link
             </a>
             {/* <a
               href="Not live"
@@ -85,32 +85,32 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>This is the Portfolio item title</h3>
+          <h3>Multiple Search Seperated with Comma's</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com" className="btn">
-              Github
+            <a href="https://github.com/milanGupta123/multipleSearch" className="btn">
+              Github Link
             </a>
-            {/* <a
-              href="https://dribbble.com/Alien_pixels"
+            <a
+              href="https://multiplesearchapp.netlify.app/search"
               className="btn btn-primary"
             >
               Live Demo
-            </a> */}
+            </a>
           </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>This is the Portfolio item title</h3>
+          <h3>Blog App</h3>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/milanGupta123/BlogApp"
               className="btn"
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              Github Link
             </a>
             {/* <a
               href="https://dribbble.com/Alien_pixels"

@@ -1,5 +1,5 @@
 import React from 'react'
-import myresume from '../../assets/Milan_resume_frontendDev.pdf'
+import myresume from '../../assets/resume.milan.pdf'
 function CTA() {
   return (
     <div className='cta'>
